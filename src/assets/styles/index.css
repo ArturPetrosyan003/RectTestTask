@@ -1,0 +1,101 @@
+@import './email.css';
+@import './page.css';
+@import './theme.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+input, button, select {
+    outline: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    box-sizing: border-box;
+}
+
+.template-select-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.template-select-container span {
+    color: #8F9293;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.template-select {
+    width: 754px;
+    height: 44px;
+    color: #43434360;
+    border: 1px solid var(--grey);
+    border-radius: 8px;
+    margin-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.template-select option {
+    background: transparent;
+}
+
+.content {
+    margin-top: 60px;
+}
+
+.template-select-button {
+    width: 220px;
+    height: 200px;
+    color: #969899;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--grey);
+    border-radius: 8px;
+    margin-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.export-button {
+    width: 184px;
+    height: 42px;
+    color: var(--coral);
+    background: transparent;
+    font-size: 16px;
+    border: 1px solid var(--coral);
+    border-radius: 33px;
+    margin-top: 72px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+.icon-container img {
+    width: 25px;
+    height: 25px;
+    margin-left: 16px;
+}
+
+.icon-container span {
+    color: black;
+    font-size: 13px;
+}

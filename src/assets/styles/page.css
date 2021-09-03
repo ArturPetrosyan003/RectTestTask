@@ -1,0 +1,242 @@
+.page-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.page-container span {
+    color: #8F9293;
+    font-size: 13px;
+    font-family: var(--Roboto)
+}
+
+/* Single Image */
+
+.single-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.single-image-container h4 {
+    margin-top: 0;
+    margin-bottom: 22px;
+    font-family: var(--Roboto);
+}
+
+.single-image-container p:not(.info-container p, .info-container span p) {
+    margin-top: 0;
+    margin-bottom: 9px;
+    font-size: 15px;
+    font-family: var(--Roboto);
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+}
+
+.info-container p {
+    margin: 0;
+}
+
+.info-container span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 24px;
+}
+
+.info-container p {
+    font-size: 13px;
+    font-family: var(--Roboto);
+}
+
+.info-container span img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.single-image-container .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 22px;
+}
+
+.single-image-container .bottom img:not(.single-image-container .icon-container img) {
+    width: 456px;
+    height: 396px;
+    margin-bottom: 24px;
+}
+
+.single-image-container .bottom p {
+    font-size: 15px;
+    font-family: var(--Roboto);
+}
+
+/* Double Image */
+
+.double-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.double-image-container img {
+    width: 550px;
+    height: 350px;
+}
+
+.double-image-container .bottom {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.double-image-container .bottom .left {
+    width: 30%;
+    margin-right: 36px;
+}
+
+.double-image-container .bottom .right {
+    width: 70%;
+}
+
+.double-image-container .bottom .left, .double-image-container .bottom .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.double-image-container .bottom .right span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.double-image-container .bottom .right span img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.double-image-container .bottom .right h4 {
+    margin-top: 28px;
+    margin-bottom: 10px;
+    font-family: var(--Roboto);
+}
+
+.double-image-container .bottom .right p {
+    max-width: 346px;
+    font-size: 15px;
+    font-family: var(--Roboto);
+    margin: 0;
+}
+
+.double-image-container .bottom .right .placeholder {
+    width: 350px;
+    height: 300px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+.double-image-container .bottom .right button {
+    align-self: flex-end;
+}
+
+/* Slider */
+
+.slider-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.slider-container .left {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 24px;
+}
+
+.slider-container .left .sm-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px;
+}
+
+.slider-container .left .sm-images img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+}
+
+.slider-container .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.slider-container .right h3 {
+    margin: 0;
+    font-family: var(--Roboto);
+}
+
+.slider-container .right p {
+    margin-top: 21px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-family: var(--Roboto);
+    max-width: 346px;
+}
+
+.slider-container .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.slider-container .button-container button {
+    width: 160px;
+    height: 38px;
+    color: white;
+    background: var(--coral);
+    font-size: 13;
+    font-family: var(--Roboto);
+    border: none;
+    border-radius: 33px;
+}
+
+.slider-container .button-container button:nth-child(2){
+    color: var(--coral);
+    background: transparent;
+    border: 1px solid var(--coral);
+    margin-left: 16px;
+}
+
+.slider-container .right ul {
+    margin: 0;
+    padding-left: 12px;
+    color: var(--coral);
+}
+
+.slider-container .right ul li span {
+    color: black;
+    font-size: 15px;
+    font-family: var(--Roboto);
+}
+
+.slider-container .right button {
+    align-self: flex-end;
+}
